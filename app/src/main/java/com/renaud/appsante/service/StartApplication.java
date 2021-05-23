@@ -22,9 +22,6 @@ public class StartApplication extends Application {
                 .build()
         );
 
-        //Temp
-        ParseUser.logOut();
-
         ParseACL defaultACL = new ParseACL();
         defaultACL.setPublicReadAccess(true);
         defaultACL.setPublicWriteAccess(true);
