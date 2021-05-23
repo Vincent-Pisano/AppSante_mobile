@@ -26,6 +26,8 @@ Description des étapes d'utilisations de l'application.
 ### 1. Main Activity
 Main Activity est un "Splash screen",  elle n'est utile que pour un effet visuel
 
+![MainActivity](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/main.PNG?raw=true)
+
 #### Chemin(s) :
 
 *Envoie automatiquement l'utilisateur dans **Login Activity** après 3 secondes*
