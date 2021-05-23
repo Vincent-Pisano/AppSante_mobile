@@ -10,6 +10,8 @@ Tout droit réservé - RENAUD Vincent
 
 Description des étapes d'utilisations de l'application.
 
+** /!\ Toutes les données présentées ont été générées aélatoirement et toute ressemblance à une personne ou organisation est strictement hasardeuse /!\ **
+
 ## 1. Mise en place de l'environnement
 
 ### Pour faire fonctionner l'application, vous aurez besoin de :
@@ -54,7 +56,7 @@ Les données sont présentent dans le serveur Bitnami.
 SignUp Activity va permettre la création d'un compte dans la base de données du serveur Bitnami
 Les données **doivent** être valides avec les citoyens enregistrés dans la base de données de **l'application Ramq**, accessible depuis des **Appels HTTP à l'application Spring AppSante**
 
-**/!\ Toutes les données sont obligatoires pour la créations d'un compte /!\**
+**/!\ Toutes les données sont obligatoires pour la créations d'un compte /!\ **
 
 Les données valides auprès de la Ramq sont :
 1. Nas
