@@ -84,15 +84,15 @@ Dashboard Activity est l'activité principale de l'application, elle s'occupe de
 On va chercher si un permit existe dans la base de données du serveur Bitnami :
 - s'il existe un permit : on affiche ses informations ainsi que son code QR
 
-![DashboardActive](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/login.PNG?dashboard_active=true)
+![DashboardActive](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/dashboard_active.PNG?=true)
 
 - s'il n'existe pas de permit: on signale à l'utilisateur qu'il n'a pas de permit enregistré à son nom 
 
-![DashboardEmpty](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/login.PNG?dashboard_empty=true)
+![DashboardEmpty](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/dashboard_empty.PNG?=true)
 
  *PS : l'utilisateur peut **enregistrer** son permis dans les fichiers de son téléphone en cliquant sur le code QR du permit* 
  
-![SaveQRCode](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/login.PNG?save_qr_code=true)
+![SaveQRCode](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/save_qr_code.PNG?=true)
 
 #### 2. Demande de Permit
 Envoie une vérification à la Ramq et enregistre le permis dans la base de données du serveur Bitnami si un permis à été trouvée, effectue ensuite l'étape 1.
