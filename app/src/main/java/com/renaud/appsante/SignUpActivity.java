@@ -133,7 +133,6 @@ public class SignUpActivity extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 } else {
-                    Log.i("INFOS", e.getMessage().substring(e.getMessage().indexOf(" ")));
                     Toast.makeText(getApplicationContext(), e.getMessage().substring(e.getMessage().indexOf(" ")), Toast.LENGTH_SHORT).show();
                 }
             }

@@ -87,10 +87,10 @@ public class CallRestApi extends AsyncTask<String, Void, String> {
 
         try {
             if (citizen != null) {
-                asyncResponse.processSuccessful(!str.equals("null"));
+                asyncResponse.processSuccessful(!str.equals(""));
             }
             else {
-                if (permit != null && str != null)
+                if (permit != null && str != null && !str.equals(""))
                 {
                     createPermit(str);
                 }
