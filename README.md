@@ -40,6 +40,9 @@ Login Activity va tester la connexion de l'utilisateur en fonction des données 
 
 Les données sont présentent dans le serveur Bitnami.
 
+![LoginActivity](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/login.PNG?raw=true)
+
+
 #### Chemin(s) :
 
 *En cas d'absence de compte, l'utilisateur pourra être redirigé vers **SignUp Activity***
@@ -65,6 +68,8 @@ Les données restantes sont :
 1. courriel
 2. numéro de téléphone
 
+![SignUpActivity](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/signup.PNG?raw=true)
+
 #### Chemin(s) :
 
 *En cas de possession d'un compte, l'utilisateur pourra être redirigé vers **Login Activity***
@@ -78,8 +83,16 @@ Dashboard Activity est l'activité principale de l'application, elle s'occupe de
 #### 1. Recherche et affichage d'un permis
 On va chercher si un permit existe dans la base de données du serveur Bitnami :
 - s'il existe un permit : on affiche ses informations ainsi que son code QR
- *PS : l'utilisateur peut **enregistrer** son permis dans les fichiers de son téléphone en cliquant sur le code QR du permit* 
+
+![DashboardActive](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/login.PNG?dashboard_active=true)
+
 - s'il n'existe pas de permit: on signale à l'utilisateur qu'il n'a pas de permit enregistré à son nom 
+
+![DashboardEmpty](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/login.PNG?dashboard_empty=true)
+
+ *PS : l'utilisateur peut **enregistrer** son permis dans les fichiers de son téléphone en cliquant sur le code QR du permit* 
+ 
+![SaveQRCode](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/login.PNG?save_qr_code=true)
 
 #### 2. Demande de Permit
 Envoie une vérification à la Ramq et enregistre le permis dans la base de données du serveur Bitnami si un permis à été trouvée, effectue ensuite l'étape 1.
@@ -91,6 +104,9 @@ Si aucun permis n'a été trouvé, on informe l'utilisateur
 ---
 ### 5. Profile Activity
 Profile Activity permet à l'utilisateur d'accéder à ses informations personnelles
+
+![ProfileActivity](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/profile.PNG?raw=true)
+
 #### 1. Affichage des informations
 On affiche les informations du compte de l'utilisateur, sauf son mot de passe qu'on laisse caché
 
@@ -110,6 +126,8 @@ Les options disponibles sont :
 4. se déconnecter de l'application (MainActivity)
 5. Partager l'application
 6. Noter l'application
+
+![DrawerMenu](https://github.com/Vincent-Pisano/AppSante_mobile/blob/master/screenshot/drawer_menu.PNG?raw=true)
 
 ## Support
 
