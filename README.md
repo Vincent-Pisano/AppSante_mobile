@@ -23,7 +23,7 @@ Description des étapes d'utilisations de l'application.
 * Indiquez votre **clé client** 
 * Indiquez votre **server** (Bitnami)
 
-## 2.  explication des Activities
+## 2.  Explication des Activities
 
 ### 1. Main Activity
 Main Activity est un "Splash screen",  elle n'est utile que pour un effet visuel
